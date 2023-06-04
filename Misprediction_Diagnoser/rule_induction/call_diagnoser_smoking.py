@@ -1,0 +1,30 @@
+from call_diagnoser_util import start_diagnosis
+from rule_induction.diagnoser import Settings
+
+"""
+Define the path to the files containing samples (without the number suffix) as well as the target value in the 
+target column which will be mapped to True. Optionally add the conversion and map dictionary to correct types and enhance
+readability of the data. Specify the number of rules returned or other settings of MD and the relevant_attributes 
+according to their type - D (discrete), I (Int), C (Continuous). 
+Finally define the name of the resulting file for storage purposes. 
+"""
+
+file_path = "../../GReaT/generation/smoking/smoking_samples"
+target_value = "Yes"
+target_column = "smoke"
+conversion_dict = {"int": ["age"]}
+config = Settings(num_rules=5)
+relevant_attributes = {
+    "gender": "D",
+    "age": "I",
+    "marital_status": "D",
+    "highest_qualification": "D",
+    "nationality": "D",
+    "ethnicity": "D",
+    "gross_income": "D",
+    "region": "D",
+}
+result_name = "smoking"
+
+""" Diagnosis procedure starts here """
+start_diagnosis(file_path, target_column, target_value, config,relevant_attributes, result_name, conversion_dict)

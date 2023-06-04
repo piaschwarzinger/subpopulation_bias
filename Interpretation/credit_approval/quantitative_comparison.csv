@@ -1,0 +1,21 @@
+rule overall,precision overall,recall overall,rule 100,precision 100,recall 100,rule 1000,precision 1000,recall 1000,rule 10000,precision 10000,recall 10000
+"DriversLicense==""No"" & PriorDefault==""Yes"" & Age>25.42",1.0,0.48,"DriversLicense==""No"" & PriorDefault==""Yes"" & Age>25.42",1.0,0.48,YearsEmployed>0.75 & CreditScore>2,1.0,0.29,YearsEmployed>2.5 & CreditScore>3,1.0,0.15
+"PriorDefault==""Yes"" & CreditScore>1",1.0,0.42,"PriorDefault==""Yes"" & CreditScore>1",1.0,0.42,"Employed==""Yes"" & Gender==""Female"" & PriorDefault==""Yes""",1.0,0.22,Income>475.0 & CreditScore>3,1.0,0.16
+"Employed==""Yes"" & PriorDefault==""Yes"" & Age>25.42",1.0,0.42,"Employed==""Yes"" & PriorDefault==""Yes"" & Age>25.42",1.0,0.42,CreditScore>8,1.0,0.11,"PriorDefault==""Yes"" & CreditScore>3",1.0,0.36
+"Employed==""Yes"" & Income>40.0",1.0,0.36,"Employed==""Yes"" & Income>40.0",1.0,0.36,"Gender==""Female"" & PriorDefault==""Yes"" & ZipCode<=129",0.99,0.24,"Ethnicity!=""White"" & CreditScore>3",0.99,0.15
+"PriorDefault==""Yes"" & Income>40.0",1.0,0.36,"PriorDefault==""Yes"" & Income>40.0",1.0,0.36,CreditScore>5,0.99,0.23,Income>112.0 & CreditScore>3,0.99,0.18
+YearsEmployed>0.25 & Income>40.0,1.0,0.33,YearsEmployed>0.25 & Income>40.0,1.0,0.33,"Employed==""Yes"" & PriorDefault==""Yes"" & ZipCode<=129",0.99,0.41,YearsEmployed>1.165 & CreditScore>3,0.99,0.25
+"Married==""Yes"" & Ethnicity!=""Latino"" & Income>40.0",1.0,0.33,"Married==""Yes"" & Ethnicity!=""Latino"" & Income>40.0",1.0,0.33,"Gender==""Female"" & PriorDefault==""Yes"" & Ethnicity!=""White""",0.98,0.12,CreditScore>3 & Age>36.75,0.99,0.11
+"BankCustomer==""Has account"" & Ethnicity!=""Latino"" & Income>40.0",1.0,0.33,"BankCustomer==""Has account"" & Ethnicity!=""Latino"" & Income>40.0",1.0,0.33,"PriorDefault==""Yes"" & Income>50.0",0.98,0.31,Age>29.42 & CreditScore>3,0.99,0.18
+"Married==""Yes"" & Industry!=""Healthcare"" & Income>40.0",1.0,0.33,"Married==""Yes"" & Industry!=""Healthcare"" & Income>40.0",1.0,0.33,CreditScore>2,0.98,0.4,"Employed==""Yes"" & YearsEmployed>4.54",0.99,0.13
+"PriorDefault==""Yes"" & ZipCode<=96 & Age>25.42",1.0,0.33,"PriorDefault==""Yes"" & ZipCode<=96 & Age>25.42",1.0,0.33,"PriorDefault==""Yes"" & YearsEmployed>5.335",0.98,0.1,CreditScore>7 & Debt>1.625,0.99,0.12
+Income>40.0 & YearsEmployed>0.665,1.0,0.33,Income>40.0 & YearsEmployed>0.665,1.0,0.33,YearsEmployed>5.335 & Debt>0.875,0.98,0.1,CreditScore>7 & ZipCode<=204,0.99,0.14
+"Industry!=""Healthcare"" & BankCustomer==""Has account"" & Income>40.0",1.0,0.33,"Industry!=""Healthcare"" & BankCustomer==""Has account"" & Income>40.0",1.0,0.33,"Employed==""Yes"" & PriorDefault==""Yes""",0.98,0.57,ZipCode<=112 & CreditScore>3,0.99,0.25
+CreditScore>3,1.0,0.3,CreditScore>3,1.0,0.3,"PriorDefault==""Yes"" & Industry==""Materials""",0.98,0.18,Age>22.5 & CreditScore>3,0.99,0.3
+CreditScore>1 & Income>40.0,1.0,0.3,CreditScore>1 & Income>40.0,1.0,0.3,YearsEmployed>0.75 & Income>560.0,0.98,0.18,Debt>4.335 & CreditScore>3,0.99,0.18
+ZipCode<=140 & CreditScore>1,1.0,0.3,ZipCode<=140 & CreditScore>1,1.0,0.3,Income>560.0 & YearsEmployed>0.75,0.98,0.18,"Married==""Yes"" & CreditScore>7",0.99,0.16
+"PriorDefault==""Yes"" & YearsEmployed>3.0",1.0,0.3,"PriorDefault==""Yes"" & YearsEmployed>3.0",1.0,0.3,"ZipCode<=129 & PriorDefault==""Yes"" & Debt>2.335",0.97,0.42,"BankCustomer==""Has account"" & CreditScore>7",0.99,0.16
+YearsEmployed>0.75 & CreditScore>2,1.0,0.29,"Ethnicity==""White"" & CreditScore>1",1.0,0.27,"PriorDefault==""Yes"" & Age>42.17",0.96,0.12,"Industry!=""ConsumerStaples"" & CreditScore>3",0.99,0.35
+"Ethnicity==""White"" & CreditScore>1",1.0,0.27,"Debt>2.5 & Ethnicity!=""Latino"" & Income>40.0",1.0,0.27,"PriorDefault==""Yes"" & Debt>9.25",0.96,0.17,Debt>1.625 & CreditScore>3,0.99,0.26
+"Debt>2.5 & Ethnicity!=""Latino"" & Income>40.0",1.0,0.27,"Debt>2.5 & Industry!=""Healthcare"" & Income>40.0",1.0,0.27,"PriorDefault==""Yes"" & Ethnicity==""Black""",0.96,0.22,CreditScore>7,0.99,0.17
+"Debt>2.5 & Industry!=""Healthcare"" & Income>40.0",1.0,0.27,"DriversLicense==""No"" & CreditScore>1",1.0,0.24,"Employed==""Yes"" & Debt>9.25",0.96,0.11,"Ethnicity!=""Latino"" & CreditScore>3",0.99,0.36

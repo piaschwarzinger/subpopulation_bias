@@ -1,0 +1,21 @@
+rule overall,precision overall,recall overall,rule 100,precision 100,recall 100,rule 1000,precision 1000,recall 1000,rule 10000,precision 10000,recall 10000
+"age<=28 & stag<=6.176591376 & industry!=""manufacture""",1.0,0.17,"age<=28 & stag<=6.176591376 & industry!=""manufacture""",1.0,0.17,novator<=4.4 & selfcontrol>7.2,0.61,0.13,"industry==""Banks""",0.65,0.12
+"age<=28 & traffic!=""friends"" & stag<=6.176591376",1.0,0.15,"age<=28 & traffic!=""friends"" & stag<=6.176591376",1.0,0.15,stag<=16.65708419 & anxiety<=4.0,0.6,0.12,"age<=31 & traffic==""rabrecNErab""",0.59,0.13
+selfcontrol>6.4 & stag<=79.54004107 & novator<=2.9,1.0,0.15,selfcontrol>6.4 & stag<=79.54004107 & novator<=2.9,1.0,0.15,novator<=4.4 & stag<=16.65708419,0.6,0.14,"stag<=33.41273101 & traffic==""rabrecNErab""",0.59,0.17
+"way!=""car"" & extraversion<=7.0 & industry==""etc""",1.0,0.15,"way!=""car"" & extraversion<=7.0 & industry==""etc""",1.0,0.15,extraversion>5.4 & anxiety<=4.0,0.6,0.14,"traffic==""rabrecNErab"" & novator>6.0",0.58,0.11
+"traffic==""empjs"" & independ>4.8 & anxiety<=4.8",1.0,0.15,"traffic==""empjs"" & independ>4.8 & anxiety<=4.8",1.0,0.15,novator<=4.4 & extraversion<=3.8,0.6,0.11,"traffic==""rabrecNErab"" & extraversion>5.4",0.57,0.12
+"traffic!=""friends"" & age<=28 & stag<=6.176591376",1.0,0.15,"traffic!=""friends"" & age<=28 & stag<=6.176591376",1.0,0.15,novator<=4.4 & stag<=26.94045175,0.59,0.22,"traffic==""rabrecNErab""",0.56,0.23
+"traffic==""empjs"" & way!=""car"" & selfcontrol>4.9",0.91,0.21,"traffic==""empjs"" & way!=""car"" & selfcontrol>4.9",0.91,0.21,stag<=48.45995893 & anxiety<=4.0,0.59,0.23,age<=24 & stag<=33.41273101,0.53,0.16
+"traffic==""empjs"" & extraversion<=7.0 & selfcontrol>4.9",0.91,0.21,"traffic==""empjs"" & extraversion<=7.0 & selfcontrol>4.9",0.91,0.21,age>30 & anxiety<=4.0,0.59,0.13,"age<=24 & coach!=""my head""",0.53,0.14
+age<=28 & stag<=6.176591376,0.89,0.17,age<=28 & stag<=6.176591376,0.89,0.17,anxiety<=4.0 & age>30,0.59,0.13,age<=24 & extraversion>5.4,0.52,0.11
+"traffic==""empjs"" & anxiety<=4.8",0.89,0.17,"traffic==""empjs"" & anxiety<=4.8",0.89,0.17,novator<=4.4 & anxiety<=4.0,0.59,0.13,"coach==""yes""",0.52,0.11
+stag<=79.54004107 & novator<=2.9,0.88,0.15,stag<=79.54004107 & novator<=2.9,0.88,0.15,extraversion<=3.8 & stag<=26.94045175,0.58,0.17,stag<=33.41273101 & extraversion>5.4 & anxiety<=4.0,0.52,0.1
+"way!=""car"" & industry==""etc""",0.88,0.15,"way!=""car"" & industry==""etc""",0.88,0.15,"coach!=""my head"" & anxiety<=4.0",0.58,0.19,selfcontrol<=6.4 & anxiety<=4.0,0.51,0.17
+"extraversion<=7.0 & industry==""etc""",0.88,0.15,"extraversion<=7.0 & industry==""etc""",0.88,0.15,selfcontrol>7.2 & stag<=48.45995893,0.58,0.15,stag<=33.41273101 & novator>6.0,0.51,0.35
+"novator<=2.9 & industry!=""manufacture""",0.88,0.15,"novator<=2.9 & industry!=""manufacture""",0.88,0.15,novator<=4.4 & age>30,0.58,0.18,age<=31 & novator>6.0,0.51,0.27
+selfcontrol>6.4 & novator<=2.9,0.88,0.15,selfcontrol>6.4 & novator<=2.9,0.88,0.15,"way==""car"" & stag<=16.65708419",0.58,0.13,extraversion>5.4 & anxiety<=4.0,0.51,0.13
+stag<=6.176591376 & independ>5.5,0.8,0.17,stag<=6.176591376 & independ>5.5,0.8,0.17,"novator<=4.4 & coach!=""my head""",0.58,0.23,"coach!=""my head"" & anxiety<=4.0",0.5,0.2
+age<=36 & stag<=6.176591376,0.79,0.23,age<=36 & stag<=6.176591376,0.79,0.23,novator<=4.4 & selfcontrol>5.7,0.57,0.24,stag<=33.41273101 & anxiety<=4.0,0.5,0.19
+independ>4.8 & anxiety<=4.0,0.78,0.29,independ>4.8 & anxiety<=4.0,0.78,0.29,"selfcontrol>7.2 & coach!=""my head""",0.57,0.14,"age<=31 & traffic!=""youjs""",0.5,0.39
+"industry==""etc""",0.78,0.15,"industry==""etc""",0.78,0.15,stag<=26.94045175 & independ<=4.1,0.56,0.18,"novator>6.0 & coach!=""my head""",0.5,0.37
+"industry==""Banks""",0.78,0.15,"industry==""Banks""",0.78,0.15,anxiety<=4.0,0.56,0.27,age<=24,0.5,0.21
